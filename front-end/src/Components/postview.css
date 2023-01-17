@@ -1,0 +1,98 @@
+.post-view{
+    margin-bottom: 10px;
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.post-header{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 13%;
+    background-color: white;
+}
+
+.postedby{
+    height: 50px;
+    text-align: left;
+    font-size: xx-small;
+    padding-left: 1vw;
+}
+
+.user{
+    font-size: medium;
+    line-height: 0%;
+}
+
+.threedots{
+
+    height: 100%;
+    width: 20%;
+}
+
+.threedotslogo{
+    height: auto;
+    width: 25%;
+    margin-top: 2vh;
+   margin-left: 3vw;
+}
+
+.postimage{
+    height: 100%;
+    width: 100%;
+    object-fit: fill ;
+}
+
+.postimagediv{
+    height: 200px;
+    width:100%;
+}
+
+.button{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.postdetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: grey;
+    background-color: white;
+    
+}
+
+.buttons{
+    display:flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.postdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.likecount{
+    text-align: left;
+    margin-left: 15px;
+    line-height: 0%;
+    font-size: small;
+    color: grey;
+    background-color: white;
+}
+
+.posttitle{
+    text-align: left;
+    line-height: 70%;
+    margin-left: 15px;
+}

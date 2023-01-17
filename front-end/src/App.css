@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 14vh;
+  width: auto;
+  padding-left: 3vw;
+  pointer-events: none;
+}
+.camera-logo{
+  height: 8vh;
+  width: auto;
+  padding-top: 2vw;
+  padding-right: 2vw;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App-header {
+  background-color: white;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-between; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
