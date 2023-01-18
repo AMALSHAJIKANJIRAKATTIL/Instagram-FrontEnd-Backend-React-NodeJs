@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     fetch('http://localhost:8000/api/posts')
       .then(response => response.json())
-      .then(data => setData(data))
+      .then(data => setData(data.reverse()))
       .catch(error => console.log(error));
   }, []);
   return (
