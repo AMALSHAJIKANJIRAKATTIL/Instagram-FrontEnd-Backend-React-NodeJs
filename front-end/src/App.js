@@ -16,7 +16,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/posts')
+    fetch('https://instaclone-backend-5fzk.onrender.com/api/posts')
       .then(response => response.json())
       .then(data => setData(data.reverse()))
       .catch(error => console.log(error));

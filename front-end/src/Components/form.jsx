@@ -17,7 +17,7 @@ const FormPage=()=>{
         formData.append('location', location);
         formData.append('description', description);
     
-        fetch('http://localhost:8000/api/submit', {
+        fetch('https://instaclone-backend-5fzk.onrender.com/api/submit', {
             method: 'POST',
             body: formData,
             // headers: {
@@ -27,7 +27,7 @@ const FormPage=()=>{
         .then(response => {
             if (response.ok) {
                 // Redirect the user to a different page
-                window.location.href = "http://localhost:3000/user";
+                window.location.href = "https://instaclone-e87b.onrender.com/user";
             } else {
                 // Handle any errors that occurred
                 console.error('An error occurred:', response.statusText);

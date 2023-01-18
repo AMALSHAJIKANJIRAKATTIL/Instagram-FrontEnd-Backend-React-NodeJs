@@ -28,9 +28,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage ,limits: { fileSize: 1000000 }});
 
 app.use('/uploads',express.static('uploads'))
-app.use(cors({
-    origin : 'http://localhost:3000'
-}));
+app.use(cors());
 
 
 app.get('/api/posts',async (req,res)=>{
@@ -54,7 +52,7 @@ app.post('/api/submit', upload.single('image'),async (req, res) => {
    // console.log(dateOnly);
 
     await postModel.create({
-        image : `http://localhost:8000/${req.file.path}`,
+        image : `https://instaclone-backend-5fzk.onrender.com/${req.file.path}`,
         author: author,
         location: location,
         desc: description,
