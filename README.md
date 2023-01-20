@@ -1,4 +1,4 @@
 # Instagram-FrontEnd-Backend-React-NodeJs
 
 
-Check this project live : https://instaclone-e87b.onrender.com/
+Check this project live : https://fluffy-swan-9cfa01.netlify.app/
